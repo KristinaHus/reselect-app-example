@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 export default class SelectedPostsList extends Component {
     componentWillReceiveProps (nextProps) {
-        console.log(1111111, nextProps.selectedPosts)
+        console.log(1111111, nextProps.selectedPosts) //This line is to check if this life cycle is triggering
     }
     render () {
         return (
