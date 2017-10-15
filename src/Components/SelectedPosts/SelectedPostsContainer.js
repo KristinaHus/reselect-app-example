@@ -2,10 +2,9 @@ import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
 import savedPosts from './SelectedPosts'
 import { removeSelectedPosts } from '../../Actions'
-import { selectedPosts } from "../../Selectors/index"
+import { selectedPosts } from '../../Selectors/index'
 
 const mapStateToProps = (state, ownProps) => {
-
     // This is how selector should NOT looks like
 
     // let selectedPosts = []
@@ -19,17 +18,17 @@ const mapStateToProps = (state, ownProps) => {
     //     selectedPosts: selectedPosts
     // }
 
-    //This is how selector should looks like
+    // This is how selector should looks like
 
-    return {
-        selectedPosts: selectedPosts(state)
-    }
+  return {
+    selectedPosts: selectedPosts(state)
+  }
 }
 
 const mapDispatchToProps = (dispatch) => {
-    return {
-        ...bindActionCreators({removeSelectedPosts}, dispatch)
-    }
+  return {
+    ...bindActionCreators({removeSelectedPosts}, dispatch)
+  }
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(savedPosts)
