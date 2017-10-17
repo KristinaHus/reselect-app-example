@@ -5,20 +5,20 @@ import { removeSelectedPosts } from '../../Actions'
 import { selectedPosts } from '../../Selectors/index'
 
 const mapStateToProps = (state, ownProps) => {
-    // This is how selector should NOT looks like
+  // This is how selector should NOT looks like
 
-    // let selectedPosts = []
-    // state.selectedPosts.forEach(id => {
-    //     let post = state.posts.all.find(post => post.id === id)
-    //     if (post) {
-    //         selectedPosts.push(post)
-    //     }
-    // })
-    // return {
-    //     selectedPosts: selectedPosts
-    // }
+  // let selectedPosts = []
+  // state.selectedPosts.forEach(id => {
+  //   let post = state.posts.all.find(post => post.id === id)
+  //   if (post) {
+  //     selectedPosts.push(post)
+  //   }
+  // })
+  // return {
+  //   selectedPosts: selectedPosts
+  // }
 
-    // This is how selector should looks like
+  // This is how selector should looks like
 
   return {
     selectedPosts: selectedPosts(state)

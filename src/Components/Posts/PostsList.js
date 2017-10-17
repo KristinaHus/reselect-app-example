@@ -10,7 +10,7 @@ export default class PostsList extends Component {
   }
   render () {
     return (
-      <div className='posts-list'>
+      <div className='posts-list padding'>
         <h2>All posts</h2>
         {this.props.posts.all.map((post, index) => (
           <label key={index}>

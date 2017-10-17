@@ -3,8 +3,26 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+.padding {
+  padding: 20px;
+}
+.header {
+  background: rgba(108, 148, 151, 0.81);
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+}
 
 .posts-list {
   display: flex;
   flex-direction: column;
+}
+
+h2, p, label {
+  margin: 5px 0;
+}
+
+.separator {
+  margin: 0 20px;
+  display: block;
+  border-bottom: 2px solid rgba(108, 148, 151, 0.81);
 }

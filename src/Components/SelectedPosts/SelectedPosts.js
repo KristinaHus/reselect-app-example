@@ -6,7 +6,7 @@ export default class SelectedPostsList extends Component {
   }
   render () {
     return (
-      <div className='posts-list'>
+      <div className='posts-list padding'>
         <h2>Selected posts</h2>
         {this.props.selectedPosts && this.props.selectedPosts.map((post, index) => (
           <p key={index}>{post.text}</p>

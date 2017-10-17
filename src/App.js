@@ -22,10 +22,16 @@ class App extends Component {
   render () {
     return (
       <div>
-        <SelectedPosts />
+        <header className='header padding'>
+          Test reselect and memorization
+        </header>
+        {/* <div className='padding'> */}
+          {/* <h2>Other data</h2> */}
+          {/* <input type='checkbox' onClick={() => this.handleChange()} /> */}
+        {/* </div> */}
         <Posts />
-        <h4>Other data</h4>
-        <input type='checkbox' onClick={() => this.handleChange()} />
+        <span className='separator' />
+        <SelectedPosts />
       </div>
     )
   }
