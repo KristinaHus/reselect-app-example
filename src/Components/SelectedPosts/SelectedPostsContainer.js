@@ -2,7 +2,7 @@ import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
 import savedPosts from './SelectedPosts'
 import { removeSelectedPosts } from '../../Actions'
-import { selectedPosts } from '../../Selectors/index'
+// import { selectedPosts } from '../../Selectors/index'
 // import { makeSelectedPosts } from '../../Selectors/index'
 
 const mapStateToProps = (state, ownProps) => {
