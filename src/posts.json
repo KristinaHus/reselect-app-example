@@ -2,59 +2,73 @@
   "array": [
     {
       "id": 1,
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "category": "one"
     },
     {
       "id": 2,
-      "text": "Morbi faucibus libero vestibulum odio bibendum euismod."
+      "text": "Morbi faucibus libero vestibulum odio bibendum euismod.",
+      "category": "two"
     },
     {
       "id": 3,
-      "text": "Curabitur commodo nisl a nulla facilisis interdum."
+      "text": "Curabitur commodo nisl a nulla facilisis interdum.",
+      "category": "three"
     },
     {
       "id": 4,
-      "text": "Curabitur nec purus eu enim pretium dignissim."
+      "text": "Curabitur nec purus eu enim pretium dignissim.",
+      "category": "one"
     },
     {
       "id": 5,
-      "text": "Mauris tempor purus vitae consectetur dictum."
+      "text": "Mauris tempor purus vitae consectetur dictum.",
+      "category": "three"
     },
     {
       "id": 6,
-      "text": "Suspendisse sed erat non urna venenatis consectetur."
+      "text": "Suspendisse sed erat non urna venenatis consectetur.",
+      "category": "two"
     },
     {
       "id": 7,
-      "text": "Phasellus consectetur lectus nec neque imperdiet dictum."
+      "text": "Phasellus consectetur lectus nec neque imperdiet dictum.",
+      "category": "two"
     },
     {
       "id": 8,
-      "text": "Etiam ut metus in elit imperdiet pellentesque in id massa."
+      "text": "Etiam ut metus in elit imperdiet pellentesque in id massa.",
+      "category": "three"
     },
     {
       "id": 9,
-      "text": "Cras a dui placerat tellus posuere sodales non vel lorem."
+      "text": "Cras a dui placerat tellus posuere sodales non vel lorem.",
+      "category": "one"
     },
     {
       "id": 10,
-      "text": "Phasellus ut erat vitae elit lobortis cursus at ut risus."
+      "text": "Phasellus ut erat vitae elit lobortis cursus at ut risus.",
+      "category": "two"
     },
     {
       "id": 11,
-      "text": "Aliquam finibus lectus vitae augue lacinia rhoncus eget ac ipsum."
+      "text": "Aliquam finibus lectus vitae augue lacinia rhoncus eget ac ipsum.",
+      "category": "two"
     },
     {
       "id": 12,
-      "text": "Cras dictum lacus a egestas aliquet."
+      "text": "Cras dictum lacus a egestas aliquet.",
+      "category": "three"
     },
     {
       "id": 13,
-      "text": "Etiam egestas nisl dictum iaculis viverra."
+      "text": "Etiam egestas nisl dictum iaculis viverra.",
+      "category": "one"
     },
     {
       "id": 14,
-      "text": "Morbi dictum enim a imperdiet maximus."
+      "text": "Morbi dictum enim a imperdiet maximus.",
+      "category": "one"
     }
   ]
 }
