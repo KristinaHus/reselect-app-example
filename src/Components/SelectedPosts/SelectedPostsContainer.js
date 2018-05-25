@@ -3,11 +3,9 @@ import { bindActionCreators } from 'redux'
 import savedPosts from './SelectedPosts'
 import { removeSelectedPosts } from '../../Actions'
 import { selectedPosts } from '../../Selectors/index'
-import { makeSelectedPosts } from '../../Selectors/index'
 
-// const mapStateToProps = (state, ownProps) => {
+const mapStateToProps = (state) => {
   // This is how selector should NOT looks like
-
   // let selectedPosts = []
   // state.selectedPosts.forEach(id => {
   //   let post = state.posts.all.find(post => post.id === id)
@@ -20,21 +18,9 @@ import { makeSelectedPosts } from '../../Selectors/index'
   // }
 
   // This is how selector should looks like
-
-  // return {
-    // selectedPosts: selectedPosts(state)
-    // selectedPosts: selectedPosts(state, ownProps)
-  // }
-// }
-
-const makeMapStateToProps = () => {
-  const selectedPosts = makeSelectedPosts()
-  const mapStateToProps = (state, ownProps) => {
-    return {
-      selectedPosts: selectedPosts(state, ownProps)
-    }
+  return {
+    selectedPosts: selectedPosts(state)
   }
-  return mapStateToProps
 }
 
 const mapDispatchToProps = (dispatch) => {
@@ -44,7 +30,6 @@ const mapDispatchToProps = (dispatch) => {
 }
 
 export default connect(
-  makeMapStateToProps,
-  // mapStateToProps,
+  mapStateToProps,
   mapDispatchToProps
 )(savedPosts)
