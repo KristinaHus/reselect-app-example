@@ -10,7 +10,7 @@ export default class SelectedPostsList extends Component {
         <h2>Selected posts {this.props.category}</h2>
         {this.props.selectedPosts && this.props.selectedPosts.map((post, index) => (
           <p key={index}>{post.text}</p>
-                ))}
+        ))}
       </div>
     )
   }

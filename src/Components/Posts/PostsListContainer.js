@@ -3,7 +3,7 @@ import { bindActionCreators } from 'redux'
 import Posts from './PostsList'
 import { saveSelectedPosts, removeSelectedPosts } from '../../Actions'
 
-const mapStateToProps = (state, ownProps) => {
+const mapStateToProps = (state) => {
   return {
     posts: state.posts,
     selectedPosts: state.selectedPosts
