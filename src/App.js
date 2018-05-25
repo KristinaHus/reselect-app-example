@@ -25,20 +25,17 @@ class App extends Component {
         <header className='header padding'>
           Test reselect and memorization
         </header>
-        {true &&
-          <div className='padding'>
-            <h2>Other data</h2>
-            <input type='checkbox' onClick={() => this.handleChange()} />
-          </div>
-        }
+        <div className='padding'>
+          <h2>Other data</h2>
+          <input type='checkbox' onClick={() => this.handleChange()} />
+        </div>
         <Posts />
         <span className='separator' />
-        {/*<SelectedPosts />*/}
-        {true && <div>
+        <div>
           <SelectedPosts category='one' />
           <SelectedPosts category='two' />
           <SelectedPosts category='three' />
-        </div>}
+        </div>
       </div>
     )
   }
